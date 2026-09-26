@@ -6,7 +6,7 @@ export const Experience: React.FC = () => {
   const { experience, achievements } = portfolioConfig;
 
   return (
-    <section id="experience" className="py-24 px-4 sm:px-6 lg:px-8 relative">
+    <section id="experience" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center text-center mb-16 relative z-10">
           {/* Eyebrow */}

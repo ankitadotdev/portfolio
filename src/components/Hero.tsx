@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-[90vh] flex items-center justify-center pt-28 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden"
+      className="relative min-h-[90vh] flex items-center justify-center pt-24 pb-12 sm:pt-28 sm:pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden"
     >
       {/* Ambient background glows */}
       <div
@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
       {/* Magical ambient floating particles */}
       <HeroAmbientParticles />
 
-      <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
 
         {/* Editorial Headline & Narrative */}
         <div className="lg:col-span-7 flex flex-col items-start text-left space-y-6">

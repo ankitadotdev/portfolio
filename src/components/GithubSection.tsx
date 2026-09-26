@@ -64,7 +64,7 @@ export const GithubSection: React.FC = () => {
   }, [socials.githubUsername]);
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 relative">
+    <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-6xl mx-auto">
         <div className="p-8 sm:p-12 rounded-4xl bg-gradient-to-br from-white via-cream-100/60 to-lavender-50/40 border border-blush-200/60 shadow-soft">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">

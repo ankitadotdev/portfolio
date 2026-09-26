@@ -6,13 +6,13 @@ export const About: React.FC = () => {
   const { personal } = portfolioConfig;
 
   return (
-    <section id="about" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="max-w-6xl mx-auto mb-16 border-t border-blush-200/50" />
+    <section id="about" className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div className="max-w-6xl mx-auto mb-10 sm:mb-16 border-t border-blush-200/50" />
 
       <div className="max-w-4xl mx-auto relative flex flex-col items-center text-center">
         
         {/* Background Floral/Branch Decorations */}
-        <div className="absolute -left-12 sm:-left-24 top-10 opacity-60 animate-pulse" style={{ animationDuration: '6s' }}>
+        <div className="hidden sm:block absolute -left-12 sm:-left-24 top-10 opacity-60 animate-pulse" style={{ animationDuration: '6s' }}>
           <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-blush-400 transform -rotate-12 scale-110">
             <path d="M60 200C50 150 70 100 40 50C25 25 10 10 10 10" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
             <path d="M57 160C45 155 35 165 35 165C35 165 45 175 57 160Z" fill="currentColor" fillOpacity="0.4" />
@@ -25,7 +25,7 @@ export const About: React.FC = () => {
           </svg>
         </div>
 
-        <div className="absolute -right-12 sm:-right-24 bottom-10 opacity-60 animate-pulse" style={{ animationDuration: '5s', animationDelay: '1s' }}>
+        <div className="hidden sm:block absolute -right-12 sm:-right-24 bottom-10 opacity-60 animate-pulse" style={{ animationDuration: '5s', animationDelay: '1s' }}>
           <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-lavender-400 transform rotate-180 scale-110">
             <path d="M60 200C50 150 70 100 40 50C25 25 10 10 10 10" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
             <path d="M57 160C45 155 35 165 35 165C35 165 45 175 57 160Z" fill="currentColor" fillOpacity="0.4" />
