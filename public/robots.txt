@@ -1,4 +1,48 @@
+# ═══════════════════════════════════════════════════
+# ROBOTS.TXT — Ankita Mishra Portfolio
+# https://ankitamishra.vercel.app/
+# ═══════════════════════════════════════════════════
+
+# Allow all crawlers full access
 User-agent: *
 Allow: /
+Disallow: /assets/
 
-Sitemap: https://ankita.dev/sitemap.xml
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /images/
+
+# AI Crawlers (GEO — Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
+# Sitemap location
+Sitemap: https://ankitamishra.vercel.app/sitemap.xml

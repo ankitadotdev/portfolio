@@ -1,0 +1,20 @@
+{
+  "name": "Ankita Mishra — Software Developer Portfolio",
+  "short_name": "Ankita Mishra",
+  "description": "Personal portfolio of Ankita Mishra — creative software developer, BCA student at SRMU, building high-performance web experiences with React & TypeScript.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9FC",
+  "theme_color": "#FFF9FC",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["portfolio", "developer", "technology"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

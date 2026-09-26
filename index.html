@@ -1,39 +1,252 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" dir="ltr" itemscope itemtype="https://schema.org/WebPage">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="author" href="/humans.txt" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
-    <!-- Primary Meta Tags -->
-    <title>Ankita — Software Developer & Creative Technologist</title>
-    <meta name="title" content="Ankita — Software Developer & Creative Technologist" />
-    <meta name="description" content="Personal developer portfolio of Ankita Mishra. Building thoughtful, elegant, and high-performance digital experiences for the web." />
-    <meta name="author" content="Ankita" />
-    <meta name="keywords" content="Ankita Mishra, Software Developer, Frontend Engineer, Creative Developer, React, TypeScript, Web Development, Portfolio" />
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PRIMARY SEO META TAGS                                  -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <title>Ankita Mishra — Software Developer & Creative Technologist | Portfolio</title>
+    <meta name="title" content="Ankita Mishra — Software Developer & Creative Technologist | Portfolio" />
+    <meta name="description" content="Personal portfolio of Ankita Mishra — a creative software developer, BCA student at SRMU (Shri Ramswaroop Memorial University), building high-performance web experiences with React, TypeScript, and modern frontend architecture. Explore projects, achievements, and more." />
+    <meta name="author" content="Ankita Mishra" />
+    <meta name="creator" content="Ankita Mishra" />
+    <meta name="publisher" content="Ankita Mishra" />
+    <meta name="keywords" content="Ankita Mishra, Ankita, Ankita Gorakhpur, Ankita Lucknow, Ankita Mishra SRMU, Ankita SRMU, Ankita Mishra BCA, Ankita Mishra Praveen, Webdevpraveen, SRMU, Shri Ramswaroop Memorial University, Best Student BCA SRMU, Praveen, Praveen SRMU, Ankita Mishra Portfolio, Ankita Mishra Developer, Ankita Mishra Software Developer, Ankita Mishra Web Developer, Ankita Mishra Frontend Developer, Ankita Mishra React Developer, Ankita Mishra TypeScript, Ankita Mishra Full Stack, Software Developer Portfolio, Frontend Engineer India, Creative Technologist, React Developer Lucknow, BCA Student Developer, Web Developer Gorakhpur, Ankita Mishra GitHub, ankitadotdev, Ankita Mishra Projects, Ankita Mishra Resume, Ankita Mishra Hackathon, NexHack, SehatVaani, AARAMBH CODERS, Ankita Mishra LinkedIn, Women in Tech India" />
     <meta name="theme-color" content="#FFF9FC" />
-    <link rel="canonical" href="https://ankita.dev" />
+    <meta name="color-scheme" content="light" />
+    <link rel="canonical" href="https://ankitamishra.vercel.app/" />
+    
+    <!-- Alternate language/region -->
+    <link rel="alternate" hreflang="en" href="https://ankitamishra.vercel.app/" />
+    <link rel="alternate" hreflang="x-default" href="https://ankitamishra.vercel.app/" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- ROBOTS & CRAWLING DIRECTIVES                           -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- OPEN GRAPH / FACEBOOK                                  -->
+    <!-- ═══════════════════════════════════════════════════════ -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ankita.dev/" />
-    <meta property="og:title" content="Ankita — Software Developer & Creative Technologist" />
-    <meta property="og:description" content="Building thoughtful, elegant, and high-performance digital experiences for the web." />
-    <meta property="og:image" content="/og-preview.png" />
+    <meta property="og:site_name" content="Ankita Mishra — Portfolio" />
+    <meta property="og:url" content="https://ankitamishra.vercel.app/" />
+    <meta property="og:title" content="Ankita Mishra — Software Developer & Creative Technologist" />
+    <meta property="og:description" content="Personal portfolio of Ankita Mishra — a creative software developer from SRMU building high-performance web experiences with React, TypeScript & modern design." />
+    <meta property="og:image" content="https://ankitamishra.vercel.app/og-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ankita Mishra — Software Developer Portfolio Preview" />
+    <meta property="og:locale" content="en_US" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://ankita.dev/" />
-    <meta property="twitter:title" content="Ankita — Software Developer & Creative Technologist" />
-    <meta property="twitter:description" content="Building thoughtful, elegant, and high-performance digital experiences for the web." />
-    <meta property="twitter:image" content="/og-preview.png" />
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- TWITTER / X CARD                                       -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ankitadotdev" />
+    <meta name="twitter:creator" content="@ankitadotdev" />
+    <meta name="twitter:url" content="https://ankitamishra.vercel.app/" />
+    <meta name="twitter:title" content="Ankita Mishra — Software Developer & Creative Technologist" />
+    <meta name="twitter:description" content="Personal portfolio of Ankita Mishra — creative developer, BCA student at SRMU, building elegant digital experiences." />
+    <meta name="twitter:image" content="https://ankitamishra.vercel.app/og-preview.png" />
+    <meta name="twitter:image:alt" content="Ankita Mishra Developer Portfolio" />
 
-    <!-- Google Fonts Preconnect & Stylesheet -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- GEO & LOCATION SEO                                     -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <meta name="geo.region" content="IN-UP" />
+    <meta name="geo.placename" content="Lucknow, Uttar Pradesh, India" />
+    <meta name="geo.position" content="26.8467;80.9462" />
+    <meta name="ICBM" content="26.8467, 80.9462" />
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- STRUCTURED DATA: JSON-LD (Person + WebSite + FAQ)      -->
+    <!-- For Google Knowledge Panel, AEO, and GEO               -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://ankitamishra.vercel.app/#website",
+          "url": "https://ankitamishra.vercel.app/",
+          "name": "Ankita Mishra — Software Developer Portfolio",
+          "description": "Personal portfolio website of Ankita Mishra, showcasing software projects, hackathon achievements, and web development expertise.",
+          "publisher": { "@id": "https://ankitamishra.vercel.app/#person" },
+          "inLanguage": "en-US",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://ankitamishra.vercel.app/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ankitamishra.vercel.app/#person",
+          "name": "Ankita Mishra",
+          "alternateName": ["Ankita", "ankitadotdev", "Webdevpraveen", "Praveen"],
+          "url": "https://ankitamishra.vercel.app/",
+          "image": "https://ankitamishra.vercel.app/images/ankita.png",
+          "description": "Ankita Mishra is a creative software developer and BCA student at Shri Ramswaroop Memorial University (SRMU), Lucknow. She specializes in frontend architecture, React, TypeScript, and building elegant, high-performance web experiences.",
+          "jobTitle": "Software Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance / Open to Opportunities"
+          },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Shri Ramswaroop Memorial University",
+            "alternateName": "SRMU",
+            "url": "https://srmu.ac.in",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lucknow",
+              "addressRegion": "Uttar Pradesh",
+              "addressCountry": "IN"
+            }
+          },
+          "knowsAbout": [
+            "React", "TypeScript", "JavaScript", "Next.js", "Tailwind CSS",
+            "Frontend Development", "Full-Stack Web Development", "UI/UX Design",
+            "Web Performance Optimization", "Responsive Design", "Git & GitHub",
+            "Node.js", "HTML5", "CSS3", "Vite", "Software Engineering"
+          ],
+          "sameAs": [
+            "https://github.com/ankitadotdev",
+            "https://linkedin.com/in/ankitadotdev",
+            "https://ankitamishra.vercel.app/"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lucknow",
+            "addressRegion": "Uttar Pradesh",
+            "addressCountry": "IN"
+          },
+          "nationality": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "gender": "Female",
+          "email": "mailto:ankitadotdev@gmail.com"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://ankitamishra.vercel.app/#webpage",
+          "url": "https://ankitamishra.vercel.app/",
+          "name": "Ankita Mishra — Software Developer & Creative Technologist | Portfolio",
+          "description": "Explore the portfolio of Ankita Mishra — projects, experience, hackathon achievements, and technical skills in React, TypeScript and modern web development.",
+          "isPartOf": { "@id": "https://ankitamishra.vercel.app/#website" },
+          "about": { "@id": "https://ankitamishra.vercel.app/#person" },
+          "inLanguage": "en-US",
+          "datePublished": "2026-09-10",
+          "dateModified": "2026-09-27"
+        },
+        {
+          "@type": "ProfilePage",
+          "dateCreated": "2026-09-10",
+          "dateModified": "2026-09-27",
+          "mainEntity": { "@id": "https://ankitamishra.vercel.app/#person" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ankitamishra.vercel.app/" },
+            { "@type": "ListItem", "position": 2, "name": "About", "item": "https://ankitamishra.vercel.app/#about" },
+            { "@type": "ListItem", "position": 3, "name": "Projects", "item": "https://ankitamishra.vercel.app/#projects" },
+            { "@type": "ListItem", "position": 4, "name": "Experience", "item": "https://ankitamishra.vercel.app/#experience" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is Ankita Mishra?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ankita Mishra is a creative software developer and BCA student at Shri Ramswaroop Memorial University (SRMU), Lucknow. She specializes in building elegant, high-performance web experiences using React, TypeScript, and modern frontend architecture."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What technologies does Ankita Mishra use?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ankita Mishra works with React, TypeScript, JavaScript, Next.js, Tailwind CSS, Node.js, Vite, Git, and modern web development tools to build responsive and performant digital experiences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where does Ankita Mishra study?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ankita Mishra is pursuing a BCA (Bachelor of Computer Applications) at Shri Ramswaroop Memorial University (SRMU) in Lucknow, Uttar Pradesh, India."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What hackathons has Ankita Mishra participated in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ankita Mishra participated in NexHack 2.0, a national-level hackathon, with Team AARAMBH CODERS where they built and presented the project SehatVaani."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How to contact Ankita Mishra?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can reach Ankita Mishra via email at ankitadotdev@gmail.com, on GitHub at github.com/ankitadotdev, or on LinkedIn at linkedin.com/in/ankitadotdev."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- PERFORMANCE: PRECONNECT & DNS PREFETCH                 -->
+    <!-- ═══════════════════════════════════════════════════════ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://github-contributions-api.deno.dev" />
+    
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet" />
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- VERIFICATION TAGS (add your IDs when ready)            -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_ID" /> -->
+    <!-- <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_ID" /> -->
+    <!-- <meta name="yandex-verification" content="YOUR_YANDEX_ID" /> -->
   </head>
   <body class="bg-[#FFF9FC] text-[#2D2232] antialiased selection:bg-[#F6BCD6] selection:text-[#2D2232] min-h-screen overflow-x-hidden">
+    <!-- Accessible skip link for screen readers -->
+    <a href="#root" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-[#2D2232] focus:rounded-lg focus:shadow-lg">Skip to main content</a>
+    
+    <!-- Noscript fallback for SEO crawlers -->
+    <noscript>
+      <div style="padding:2rem;text-align:center;font-family:system-ui,sans-serif;">
+        <h1>Ankita Mishra — Software Developer & Creative Technologist</h1>
+        <p>Hi, I'm Ankita Mishra, a BCA student at Shri Ramswaroop Memorial University (SRMU), Lucknow. I'm a creative software developer specializing in React, TypeScript, and modern frontend architecture. Explore my projects, achievements, and professional journey.</p>
+        <p>Technologies: React, TypeScript, JavaScript, Next.js, Tailwind CSS, Node.js, Vite, Git, HTML5, CSS3</p>
+        <p>Contact: <a href="mailto:ankitadotdev@gmail.com">ankitadotdev@gmail.com</a> | <a href="https://github.com/ankitadotdev">GitHub</a> | <a href="https://linkedin.com/in/ankitadotdev">LinkedIn</a></p>
+      </div>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
