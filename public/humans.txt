@@ -3,12 +3,13 @@ Developer: Ankita Mishra
 Role: Software Developer & Creative Technologist
 Location: Lucknow, Uttar Pradesh, India
 University: Shri Ramswaroop Memorial University (SRMU)
+Website: https://ankitamishra.xyz
 GitHub: https://github.com/ankitadotdev
 LinkedIn: https://linkedin.com/in/ankitadotdev
 Email: ankitadotdev@gmail.com
 
 /* SITE */
-Last updated: 2026-09-27
+Last updated: 2026-10-04
 Language: English
 Standards: HTML5, CSS3, ECMAScript 2024
 Framework: React 19, Vite

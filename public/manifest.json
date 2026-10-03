@@ -3,6 +3,8 @@
   "short_name": "Ankita Mishra",
   "description": "Personal portfolio of Ankita Mishra — creative software developer, BCA student at SRMU, building high-performance web experiences with React & TypeScript.",
   "start_url": "/",
+  "scope": "/",
+  "id": "https://ankitamishra.xyz/",
   "display": "standalone",
   "background_color": "#FFF9FC",
   "theme_color": "#FFF9FC",
