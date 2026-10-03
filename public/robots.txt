@@ -1,12 +1,11 @@
 # ═══════════════════════════════════════════════════
 # ROBOTS.TXT — Ankita Mishra Portfolio
-# https://ankitamishra.vercel.app/
+# https://ankitamishra.xyz/
 # ═══════════════════════════════════════════════════
 
 # Allow all crawlers full access
 User-agent: *
 Allow: /
-Disallow: /assets/
 
 # Google
 User-agent: Googlebot
@@ -45,4 +44,4 @@ User-agent: Cohere-AI
 Allow: /
 
 # Sitemap location
-Sitemap: https://ankitamishra.vercel.app/sitemap.xml
+Sitemap: https://ankitamishra.xyz/sitemap.xml
